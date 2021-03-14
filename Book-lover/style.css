@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fffffe;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+form {
+  border-radius: 10px;
+  outline: none;
+  background-color: #e4e6f6;
+  display: inline-block;
+  /* position: relative; */
+  /* float: right; */
+}
+input:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+form:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+form input {
+  width: 350px;
+  padding-left: 1rem;
+  border: none;
+  padding-bottom: 5px;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+form button {
+  border: none;
+  background-color: #f9dd9c;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  height: 35px;
+}
+.avatar img {
+  width: 20%;
+}
+.main {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+.book-info {
+  background-color: transparent;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  color: transparent;
+  position: relative;
+  overflow: hidden;
+  color: rgb(59, 54, 54);
+  margin: 4rem 4rem;
+}
+.book-info img {
+  margin-top: 15px;
+  height: 350px;
+  max-width: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+}
+
+h5,
+h4 {
+  overflow: hidden;
+  margin: 0.2rem 0.3rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 250px;
+}
+h5 {
+  color: rgb(178, 181, 187);
+}
+
+.read-more {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  font-weight: bold;
+  left: 0;
+  transition: transform 0.1s ease-in;
+  height: 350px;
+  width: 100%;
+  margin-top: 15px;
+  font-style: bold;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 10px;
+  overflow: hidden;
+}
+.read-more h3 {
+  color: black;
+  float: left;
+  padding: 15px 20px;
+}
+.read-more span {
+  float: left;
+  padding: 10px 10px;
+}
+
+.read-more:hover {
+  opacity: 0.8;
+}
+.booklist {
+  text-align: center;
+  padding: 20px 0;
+  margin: 1rem 8rem;
+}
+.title {
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+}

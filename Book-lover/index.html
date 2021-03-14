@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Lover</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="avatar">
+          <img src="img/img.png" alt="" />
+          <h3 class="quote">
+            A reader lives a thousand lives before he dies...
+          </h3>
+        </div>
+      </div>
+      <div class="form">
+        <form id="form">
+          <div class="inside-search">
+            <input
+              class="input-field"
+              type="text"
+              id="search-term"
+              placeholder="search by author,title,name"
+            />
+            <button type="submit" id="search-btn">
+              <i class="fa fa-search icon"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="booklist"></div>
+  </body>
+</html>
